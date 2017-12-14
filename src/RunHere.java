@@ -1,4 +1,5 @@
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 
 public class RunHere {
@@ -24,9 +25,20 @@ public class RunHere {
 		frame.setContentPane(demo.createContentPane());
 		
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setSize(290, 100);
+		frame.setSize(585, 300);
+		frame.setLocationRelativeTo(null);
 		frame.setVisible(true);
 		
+		JOptionPane.showMessageDialog(frame, "Hello!");
+		
 	}
-
+	/*
+	 *1. All class code is working properly
+	 *2. Add one more panel to the bottom (3 panels total)
+	 *3. On the outer bottom panel, add "Left" Label and "Right" Label
+	 *4. Add a "Push Me" Button on center Panel
+	 * 
+	 */
+	
+	
 }
