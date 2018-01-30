@@ -61,6 +61,18 @@ public class PanelExample_Extended {
 		orangePanel.setSize(555, 100);
 		totalGUI.add(orangePanel);
 		
+		JLabel leftLabel = new JLabel("Left");
+		leftLabel.setLocation(0, 28);
+		leftLabel.setSize(50, 40);
+		leftLabel.setHorizontalAlignment(0);
+		orangePanel.add(leftLabel);
+		
+		JLabel rightLabel = new JLabel("Right");
+		rightLabel.setLocation(500, 28);
+		rightLabel.setSize(50, 40);
+		rightLabel.setHorizontalAlignment(0);
+		orangePanel.add(rightLabel);
+		
 		JPanel pinkPanel = new JPanel();
 		pinkPanel.setLayout(null);
 		pinkPanel.setBackground(Color.pink);
@@ -71,7 +83,7 @@ public class PanelExample_Extended {
 		JPanel whitePanel = new JPanel();
 		whitePanel.setLayout(null);
 		whitePanel.setBackground(Color.white);
-		whitePanel.setLocation(30, 5);
+		whitePanel.setLocation(25,8);
 		whitePanel.setSize(400, 65);
 		pinkPanel.add(whitePanel);
 		
